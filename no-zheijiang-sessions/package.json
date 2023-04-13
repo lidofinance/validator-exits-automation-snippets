@@ -1,0 +1,8 @@
+{
+  "name": "validator-ejector-automation",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Lido",
+  "private": true,
+  "license": "MIT"
+}
