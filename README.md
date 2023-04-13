@@ -6,7 +6,7 @@ Collection of example scripts to help with automation of validator exits.
 
 - [keystores.mjs](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/keystores.mjs) - Mass exit message generation and signing from [keystores](https://eips.ethereum.org/EIPS/eip-2335) using [ethdo](https://github.com/wealdtech/ethdo)
 - [web3signer.mjs](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/web3signer.mjs) - Exit message generation and signing using [Web3Signer](https://github.com/ConsenSys/web3signer)
-- [kapiValidation.mjs](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/kapiValidation.mjs) - KAPI response data validation for two pre-signing endpoints
+- [kapiValidation.mjs](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/kapiValidation.mjs) - [KAPI](https://github.com/lidofinance/lido-keys-api) response data validation for two [pre-signing endpoints](https://github.com/lidofinance/lido-keys-api#validators)
 - [no-zheijiang-sessions/](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/no-zheijiang-sessions/) - Scripts that were used on Validator Exits Zheijiang Walkthrough Sessions with Node Operators
 
 ## Community Scripts
