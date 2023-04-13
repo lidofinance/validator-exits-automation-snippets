@@ -1,10 +1,20 @@
 #!/usr/bin/env zx
 
+/**
+This example uses zx:
+https://github.com/google/zx
+
+You need to have it installed and run the script using:
+zx keystores.mjs
+or
+./keystores.mjs
+**/
+
 // Folder structure:
 // ./keystores
 // ./output
 // ./temp
-// ./generate.mjs
+// ./keystores.mjs
 
 import { readFile, writeFile } from 'fs/promises'
 
