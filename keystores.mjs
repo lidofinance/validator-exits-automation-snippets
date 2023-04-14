@@ -37,7 +37,7 @@ if (!password || !node || !ethdo) {
 }
 
 console.info(chalk.green('Fetching network state'))
-await $`${ethdo} validator exit --prepare-offline --connection=${node} --timeout=300s --verbose --debug`
+await $`${ethdo} validator exit --prepare-offline --connection=${node} --timeout=10m --verbose --debug`
 console.info(chalk.green('Network state fetched'))
 
 for (const file of await glob('./keystores/*.json')) {
