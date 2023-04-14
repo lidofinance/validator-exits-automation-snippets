@@ -48,7 +48,7 @@ for (const file of await glob('./keystores/*.json')) {
 
     // Importing keystore to ethdo
     await $`${ethdo} --base-dir=./temp wallet create --wallet=wallet`
-    await $`${ethdo} --base-dir=./temp account import --account=wallet/account --keystore="${file}" --keystore-passphrase="${password}" --passphrase=pass --allow-weak-passphrases`
+    await $`${ethdo} --base-dir=./temp account import --account=wallet/account --keystore=${file} --keystore-passphrase=${password} --passphrase=pass --allow-weak-passphrases`
 
     // Generating an exit message, catching command output and writing to file
     const output =
