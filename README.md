@@ -12,3 +12,4 @@ Collection of example scripts to help with automation of validator exits.
 ## Community Scripts
 
 - [validator-exit-pre-signer](https://github.com/chainlayer/validator-exit-pre-signer) - [keystores.mjs](https://github.com/lidofinance/validator-exits-automation-snippets/blob/main/keystores.mjs) Python alternative by [@jonastra](https://github.com/jonastra) from [ChainLayer](https://github.com/chainlayer)
+- [Lido Withdrawals Automation](https://github.com/Stakely/lido-withdrawals-automation) - CLI for E2E messages preparation for the Ejector: getting validator info from KAPI, generating exit messages, signing using Web3Signer and encrypting exit message files by [Stakely.io](https://stakely.io/)
